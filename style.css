@@ -1,11 +1,26 @@
-.foot{
-  position: absolute;
-  background-color: orange;
-  padding-bottom: 2rem;
+.mg-bot{
+  margin-bottom: 2rem;
 }
 
 .navbar{
-  background-color: teal;
+  background-color: rgb(222, 227, 227);
+  border-bottom: 1px solid black;
+}
+
+.logo{
+  width: 40px;
+  height; auto;
+  border-radius: 50%;
+}
+
+.fix{
+  height: 56px;
+}
+
+.container,
+.container-fluid{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .main{
@@ -13,5 +28,36 @@
   background-image: url(./img/1500x500.jpeg);
   background-position: center;
   background-repeat: no-repeat;
+}
 
+@media (min-width: 992px){
+  .main{
+    background-size: contain;
+  }
+}
+
+.card{
+  height: 100%;
+}
+
+.noticia{
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.noticia p,
+.noticia h2{
+  text-align: justify;
+}
+
+.colab{
+  margin-top:.5rem;
+}
+
+.foot{
+  position: absolute;
+  background-color: rgb(20, 25, 93);
+  color: rgb(222, 227, 227);
 }
