@@ -15,13 +15,3 @@
   background-repeat: no-repeat;
 
 }
-
-@media (max-width: 991px){
-  .aside{
-    display: none;
-  }
-}
-
-.colab{
-  margin: 15px;
-}
